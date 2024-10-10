@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Dashboard from "@/components/layout/Dashboard";
 
-export default function Admin() {
+export default function Product() {
 	return (
 	  <>
 		<Head>
@@ -9,7 +9,7 @@ export default function Admin() {
 		  <meta name="viewport" content="width=device-width, initial-scale=1" />
 		  <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
 		  <meta discription="Create a Design" />
-		  <title>Admin</title>
+		  <title>Product</title>
 		</Head>
 		<Dashboard />
 	  </>
